@@ -1,0 +1,21 @@
+Link para download do Git: https://git-scm.com/downloads
+Principais comandos git:
+git config --global -e
+s = !git status -s
+c = !git add --all && git commit -m
+l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+git init
+git clone <https://url-do-link>
+git remote rm origin
+git branch <nome-da-branch>
+git push -u <remote> <nome-da-branch>
+git branch 
+ou
+git branch --list
+git branch -d <nome-da-branch>
+git status
+git add <arquivo>
+git add *
+git commit -m "mensagem explicando a mudança no código"
+git push <remote> <nome-do-branch>
+git pull <remote>
